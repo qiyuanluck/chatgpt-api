@@ -1,6 +1,6 @@
-package cn.project.chatgpt.domain.service;
+package cn.project.chatgpt.domain.security.service;
 
-import cn.project.chatgpt.domain.model.vo.JwtToken;
+import cn.project.chatgpt.domain.security.model.vo.JwtToken;
 import org.apache.shiro.web.filter.AccessControlFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

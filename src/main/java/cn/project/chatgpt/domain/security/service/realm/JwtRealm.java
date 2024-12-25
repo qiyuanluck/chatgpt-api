@@ -1,7 +1,7 @@
-package cn.project.chatgpt.domain.service.realm;
+package cn.project.chatgpt.domain.security.service.realm;
 
-import cn.project.chatgpt.domain.model.vo.JwtToken;
-import cn.project.chatgpt.domain.service.JwtUtil;
+import cn.project.chatgpt.domain.security.model.vo.JwtToken;
+import cn.project.chatgpt.domain.security.service.JwtUtil;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;

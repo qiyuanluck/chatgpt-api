@@ -1,4 +1,4 @@
-package cn.project.chatgpt.domain.service;
+package cn.project.chatgpt.domain.security.service;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
@@ -94,7 +94,6 @@ public class JwtUtil {
 
     // 判断jwtToken是否合法
     public boolean isVerify(String jwtToken) {
-        // 官方的校验规则
         Algorithm algorithm = null;
         switch (signatureAlgorithm) {
             case HS256:
@@ -111,3 +110,4 @@ public class JwtUtil {
     }
 
 }
+

@@ -1,2 +1,7 @@
 server:
-  port: 8080
+  port: 80
+wx:
+  config:
+    originalid: gh_efb7cfbe3cb4
+    appid: wx8de77ff67dc416e8
+    token: qiyuan

@@ -1,11 +1,11 @@
-package cn.project.chatgpt.domain.model.vo;
+package cn.project.chatgpt.domain.security.model.vo;
 
 import org.apache.shiro.authc.AuthenticationToken;
 
 /**
  * @Author: qiyuan
- * @Date: 2024/12/24 14:43
- * @Description: Token 信息
+ * @Date: 2024/12/25 14:53
+ * @Description: token信息
  */
 public class JwtToken implements AuthenticationToken {
 

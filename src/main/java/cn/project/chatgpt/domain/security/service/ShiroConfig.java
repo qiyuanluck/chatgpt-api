@@ -1,6 +1,6 @@
-package cn.project.chatgpt.domain.service;
+package cn.project.chatgpt.domain.security.service;
 
-import cn.project.chatgpt.domain.service.realm.JwtRealm;
+import cn.project.chatgpt.domain.security.service.realm.JwtRealm;
 import org.apache.shiro.mgt.DefaultSessionStorageEvaluator;
 import org.apache.shiro.mgt.DefaultSubjectDAO;
 import org.apache.shiro.mgt.SubjectFactory;
@@ -31,7 +31,7 @@ public class ShiroConfig {
 
     @Bean
     public SubjectFactory subjectFactory() {
-        class JwtDefaultSubjectFactory extends DefaultWebSubjectFactory {
+        class JwtDefaultSubjectFactory extends DefaultWebSubjectFactory{
             @Override
             public Subject createSubject(SubjectContext context) {
                 context.setSessionCreationEnabled(false);
@@ -87,4 +87,3 @@ public class ShiroConfig {
     }
 
 }
-
